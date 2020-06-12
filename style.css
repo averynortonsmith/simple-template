@@ -1,39 +1,36 @@
 html {
   padding: 30px 10px;
-}
-
-#content {
-  display: block;
-  max-width: 640px;
-  margin: 0px auto;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 24px;
   word-wrap: break-word;
   color: #444;
 }
 
-pre, code {
+main {
+  width: 800px;
+  margin: 0px auto;
+}
+
+pre {
   font-family: monospace;
-  font-size: 11px;
-  line-height: 13px;
-  color: #222;
+  line-height: 18px;
+}
+
+code, blockquote {
+  background-color: #f8f8f8;
+  border: 1px solid #eee;
 }
 
 code {
   display: block;
-  white-space: pre;
-  background-color: #f4f4f4;
   padding: 20px;
   margin: 10px 0px;
   max-width: none;
   overflow-x: auto;
-  border: 1px solid #ddd;
 }
 
 blockquote {
-  background-color: #f4f4f4;
-  border: 1px solid #ddd;
   padding: 20px;
   margin: 5px 0px;
 }
@@ -41,7 +38,7 @@ blockquote {
 hr {
   height: 2px;
   border: none;
-  background-color: #ddd;
+  background-color: #eee;
 }
 
 img { 
@@ -56,4 +53,3 @@ a { color: inherit; }
 .newPage {
   page-break-after: always;
 }
-

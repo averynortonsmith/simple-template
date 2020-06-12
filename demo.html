@@ -6,10 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>demo</title>
 
-        <link rel="stylesheet" type="text/css" href="https://rawcdn.githack.com/averynortonsmith/simple-template/893ec720fd996a191c6b4b8d97c287e28c87e97f/style.css">
+        <!-- <link rel="stylesheet" type="text/css" href="https://rawcdn.githack.com/averynortonsmith/simple-template/893ec720fd996a191c6b4b8d97c287e28c87e97f/style.css"> -->
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
-    <body><div id="content">
+    <body>
+      <main>
         <h1>Friends, Romans, Countrymen</h1>
         <h2>Lend me your ears</h2>
         <p>
@@ -40,14 +42,14 @@
           </li>
           <li>python: 
             <blockquote>
-            "... and we provide each of our software engineers with a standing desk.", "Actually, 
+            "... and we provide each of our software engineers with a standing desk", "Actually, 
             I'd prefer a normal desk if that's...", "WE PROVIDE EACH OF OUR SOFTWARE ENGINEERS WITH A STANDING DESK"
             </blockquote>
           </li>
           <li>haskell: 
-<code> t o = whomSt :: so|ever| <*> it m $ ay conc . ern; it 
+<pre><code> t o = whomSt :: so|ever| <*> it m $ ay conc . ern; it 
      | is ++ m y !Pleasur (*e) ~~>> to >>= _ \i -> n fo (R m y o !! u)
-     | that -> [yo..u] ...</code>
+     | that -> [yo..u</code></pre>
           </li>
           <li>javascript: 
             <blockquote><em>click here to learn all of ES6 in 20 seconds!</em> 
@@ -69,7 +71,7 @@
 
         <h3><em>Important Codes</em></h3>
 
-        <code>-- find the length of the longest consecutive 
+        <pre><code>-- find the length of the longest consecutive 
 -- subsequence of a repeated number in a list
 
 # ----------------- python ------------------
@@ -95,11 +97,11 @@ split (a:b:xs) func
   | func a b  = let s:ss = split (b:xs) func in (a:s):ss
   | otherwise = [a]:(split (b:xs) func)
 
-maxSeq seq = maximum $ map length $ split seq (==) 
-        </code>
+maxSeq seq = maximum $ map length $ split seq (==)</code></pre>
 
         <div>catto!</div>
         <img src="https://images.unsplash.com/photo-1494256997604-768d1f608cac?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=362a7baf8e58eab5f477b13befc0e62a&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb">
     
-    </div></body>
+    </main>
+  </body>
 </html>
